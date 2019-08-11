@@ -1,0 +1,7 @@
+{
+  "showExamples": false,
+  "apiEndpoint": "https://australiaeast.api.cognitive.microsoft.com/customvision/v3.0/Prediction/39ec9688-5d99-4533-90f0-ed6918a2ed37/classify/iterations/Iteration3/image",
+  "apiKey": "a03e130a71764cdcbba7ca702d75ff11",
+  "firstTime": true,
+  "higherPerformance": false
+}
