@@ -9,6 +9,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
+import 'outlined_text.dart';
+
 class PressableCard extends StatefulWidget {
   const PressableCard({
     @required this.child,
@@ -169,11 +171,7 @@ class PredictionCard extends StatelessWidget {
                                 children: <Widget>[
                                   Text(subtitle.toUpperCase(),
                                       style: Theme.of(context).textTheme.caption),
-                                  Text(title,
-                                      style: TextStyle(
-                                        fontSize: 28.0,
-                                        fontWeight: FontWeight.bold,
-                                      )),
+                                  OutlinedText(title),
                                 ],
                               ),
                               Builder(

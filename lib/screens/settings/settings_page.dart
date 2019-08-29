@@ -73,8 +73,8 @@ class _SettingsPageState extends State<SettingsPage> {
                 SettingsGroup(
                   items: <SettingsItem>[
                     _buildShowSampleSetting(context),
+                    _buildHighPerformanceSetting(context),
                     _buildApiSetting(context),
-                    _buildHighPerformanceSetting(context)
                   ],
                 ),
                 Padding(padding: EdgeInsets.only(top: 10.0),),
